@@ -1,0 +1,52 @@
+<form method="post" enctype="multipart/form-data" >
+    {% csrf_token %} 
+
+<div class="col-md-12">
+    <div class="comment-form__input-box">
+        <input type="text" name="adtype" placeholder="Home/Office" value="{{cus_details.adtype}}">
+    </div><!-- /.comment-form__input-box -->
+</div><!-- /.col-md-12 -->
+<div class="col-md-12">
+    <div class="comment-form__input-box">
+        <input type="text" name="addr" placeholder="Address" value="{{cus_details.address}}">
+    </div><!-- /.comment-form__input-box -->
+</div><!-- /.col-md-12 -->
+<div class="col-md-12">
+    <!-- /.comment-form__input-box -->
+</div><!-- /.col-md-12 -->
+<div class="col-md-12">
+    <div class="comment-form__input-box">
+        <input type="text" name="local" placeholder="Town / City" value="{{cus_details.locality}}">
+    </div><!-- /.comment-form__input-box -->
+</div><!-- /.col-md-12 -->
+<div class="col-md-6">
+    <div class="comment-form__input-box">
+        <input type="text" name="adstate" placeholder="State" value="{{cus_details.state}}">
+    </div><!-- /.comment-form__input-box -->
+</div><!-- /.col-md-12 -->
+<div class="col-md-6">
+    <div class="comment-form__input-box">
+        <input type="text" name="zipcode" placeholder="Zip Code" value="{{cus_details.zipcode}}">
+    </div><!-- /.comment-form__input-box -->
+</div><!-- /.col-md-12 -->
+<div class="col-md-6">
+    <div class="comment-form__input-box">
+        <input type="text" name="email" placeholder="Email Address" value="{{cus_details.email}}">
+    </div><!-- /.comment-form__input-box -->
+</div><!-- /.col-md-12 -->
+<div class="col-md-6">
+    <div class="comment-form__input-box">
+        <input type="text" name="phone" placeholder="Phone" value="{{cus_details.phno}}">
+    </div><!-- /.comment-form__input-box -->
+</div><!-- /.col-md-12 -->
+<div class="col-md-6">
+    <div class="comment-form__input-box field-checkbox">
+        <input type="checkbox" id="create-account">
+        
+    </div><!-- /.comment-form__input-box -->
+</div><!-- /.col-md-12 -->
+<button type="submit" class="thm-btn cart-btn" >next</button>
+</div><!-- /.row -->
+</div><!-- /.comment-one__form -->
+</div><!-- /.col-lg-6 -->
+</form>		
