@@ -27,6 +27,7 @@ urlpatterns = [
     path('exfarmer/',include('exfarmer.urls')),
     path('customer/',include('customer.urls')),
     path('site_admin/',include('site_admin.urls')),
+    path('prediction/',include('prediction.urls')),
 ]
 
 if settings.DEBUG:

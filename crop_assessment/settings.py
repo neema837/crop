@@ -42,7 +42,8 @@ INSTALLED_APPS = [
     'farmer',
     'exfarmer',
     'customer',
-    'site_admin'
+    'site_admin',
+    'prediction'
 ]
 
 MIDDLEWARE = [

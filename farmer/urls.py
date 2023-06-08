@@ -1,7 +1,9 @@
 from django.urls import path,include
 from django.contrib import admin
 from.import views
+
 urlpatterns=[
+
     path('farm_reg',views.farm_reg,name="farm_reg"),
     path('farmlogin',views.farmlogin,name="farmlogin"),    
     path('farm_index',views.farm_index,name="farm_index"),
@@ -20,8 +22,9 @@ urlpatterns=[
     path('ed_blog<int:bid>',views.ed_blog,name="ed_blog"),
     path('del_skill<int:sid>',views.del_skill,name="del_skill"),
     path('del_blog<int:bid>',views.del_blog,name="del_blog"),
-
     path('order_details',views.order_details,name="order_details"),
 
+
+   
     
 ]
